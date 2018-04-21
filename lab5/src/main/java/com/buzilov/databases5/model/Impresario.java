@@ -11,6 +11,9 @@ public class Impresario {
     @Column
     private String name;
 
+    public Impresario() {
+    }
+
     public Impresario(String name) {
         this.name = name;
     }

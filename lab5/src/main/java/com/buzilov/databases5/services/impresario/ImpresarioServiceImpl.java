@@ -14,7 +14,7 @@ public class ImpresarioServiceImpl implements ImpresarioService {
 
     @Override
     public Impresario insert(Impresario impresario) {
-        return repository.save(impresario)
+        return repository.save(impresario);
     }
 
     @Override

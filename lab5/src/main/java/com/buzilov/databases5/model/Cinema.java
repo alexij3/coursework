@@ -1,13 +1,26 @@
 package com.buzilov.databases5.model;
 
+import javax.persistence.*;
+
+@Entity
 public class Cinema {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column
     private String name;
+
+    @Column
     private String address;
+
+    @Column
     private int screenSize;
 
-    public Cinema(Integer id, String name, String address, int screenSize) {
-        this.id = id;
+    public Cinema() {
+    }
+
+    public Cinema(String name, String address, int screenSize) {
         this.name = name;
         this.address = address;
         this.screenSize = screenSize;

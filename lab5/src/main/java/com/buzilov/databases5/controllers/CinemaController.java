@@ -1,7 +1,7 @@
 package com.buzilov.databases5.controllers;
 
-import com.buzilov.databases5.model.Impresario;
-import com.buzilov.databases5.services.impresario.ImpresarioServiceImpl;
+import com.buzilov.databases5.model.Cinema;
+import com.buzilov.databases5.services.cinema.CinemaServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/impresario")
-public class ImpresarioController {
+@RequestMapping("/api/cinema")
+public class CinemaController {
     @Autowired
-    ImpresarioServiceImpl service;
+    CinemaServiceImpl service;
 
     @RequestMapping("/showAll")
-    public List<Impresario> getAll() {
+    public List<Cinema> getAll() {
         return service.getAll();
     }
 
@@ -28,14 +28,13 @@ public class ImpresarioController {
     }
 
     @RequestMapping("/create")
-    public Impresario create(String name){
-        Impresario Impresario = new Impresario(name);
-        return service.insert(Impresario);
+    public Cinema create(@RequestBody Cinema cinema){
+        return service.insert(cinema);
     }
 
     @RequestMapping("/update")
-    public Impresario update(@RequestParam("id") Integer id, @RequestBody Impresario Impresario){
-        Impresario.setId(id);
-        return service.update(Impresario);
+    public Cinema update(@RequestParam("id") Integer id, @RequestBody Cinema Cinema){
+        Cinema.setId(id);
+        return service.update(Cinema);
     }
 }
