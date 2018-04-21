@@ -1,4 +1,4 @@
-package com.buzilov.databases5.repositories.artist;
+package com.buzilov.databases5.repositories;
 
 import com.buzilov.databases5.model.Artist;
 import org.springframework.data.repository.CrudRepository;

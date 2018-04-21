@@ -1,11 +1,20 @@
 package com.buzilov.databases5.model;
 
+import javax.persistence.*;
+
+@Entity
 public class Organizer {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column
     private String name;
 
-    public Organizer(int id, String name) {
-        this.id = id;
+    public Organizer() {
+    }
+
+    public Organizer(String name) {
         this.name = name;
     }
 

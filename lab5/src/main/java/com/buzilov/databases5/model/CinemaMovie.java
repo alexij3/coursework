@@ -1,16 +1,28 @@
 package com.buzilov.databases5.model;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
 public class CinemaMovie {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+
+    @Column
     private String name;
+
+    @Column
     private String genre;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name="cinema_id")
     private Cinema cinema;
+
+    @Column
     private Date date;
 
-    public CinemaMovie(int id, String name, String genre, Cinema cinema, Date date) {
-        this.id = id;
+    public CinemaMovie(String name, String genre, Cinema cinema, Date date) {
         this.name = name;
         this.genre = genre;
         this.cinema = cinema;

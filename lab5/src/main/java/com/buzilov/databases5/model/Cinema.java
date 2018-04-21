@@ -1,6 +1,7 @@
 package com.buzilov.databases5.model;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Cinema {
@@ -16,6 +17,9 @@ public class Cinema {
 
     @Column
     private int screenSize;
+
+    /*@OneToMany(mappedBy = "cinema")
+    private List<CinemaMovie> cinemaMovieList;*/
 
     public Cinema() {
     }

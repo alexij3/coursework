@@ -40,35 +40,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CinemaController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/CinemaController.java">
+      <file leaf-file-name="ArtistController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ArtistController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#984#985#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cinema.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Cinema.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ImpresarioController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ImpresarioController.java">
+      <file leaf-file-name="OrganizerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/OrganizerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,26 +62,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CinemaServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/CinemaServiceImpl.java">
+      <file leaf-file-name="organizer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/organizer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CinemaRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/CinemaRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="40">
+              <caret line="31" column="103" lean-forward="false" selection-start-line="31" selection-start-column="103" selection-end-line="31" selection-end-column="103" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,8 +75,8 @@
       <file leaf-file-name="DataStorage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/DataStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-474">
-              <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+            <state relative-caret-position="387">
+              <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,43 +84,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArtistController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ArtistController.java">
+      <file leaf-file-name="artist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/artist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cinema.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/cinema.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="35" column="128" lean-forward="false" selection-start-line="35" selection-start-column="128" selection-end-line="35" selection-end-column="128" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cinema.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/cinema.js">
+      <file leaf-file-name="organizer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/organizer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/bootstrap.js">
+      <file leaf-file-name="culture_palace.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/culture_palace.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/navigation.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="concert_hall.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/concert_hall.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="culture_palace.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/culture_palace.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -168,24 +158,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>kek</find>
-      <find>th</find>
-      <find>panel-heading</find>
-      <find>modal-body</find>
-      <find>success</find>
-      <find>btn-success</find>
-      <find>impresarioDAO</find>
-      <find>artist</find>
       <find>ei</find>
-      <find>ArtistCtrl</find>
       <find>&quot;Im</find>
       <find>ArtistRepository</find>
       <find>return CinemaRepository</find>
-      <find>artistCtrl</find>
-      <find>createArtist</find>
       <find>updateCinemaName</find>
-      <find>Artist</find>
       <find>/api/cinema</find>
+      <find>concerthallrepository</find>
+      <find>Cinema</find>
+      <find>concerthallctrl.</find>
+      <find>CinemaCtrl</find>
+      <find>cinema</find>
+      <find>ScreenSize</find>
+      <find>screensize</find>
+      <find>/concertHall</find>
+      <find>'updateС</find>
+      <find>сapacity</find>
+      <find>concerthall</find>
+      <find>concertHalls</find>
+      <find>concertHall</find>
+      <find>updateConcertHall</find>
+      <find>СoncertHall</find>
+      <find>Сoncert</find>
+      <find>ConcertHall</find>
+      <find>organizerRepository</find>
+      <find>ArtistCtrl</find>
+      <find>artistCtrl</find>
+      <find>updateArtist</find>
+      <find>createArtist</find>
+      <find>artist</find>
+      <find>Artist</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -196,11 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ContestResults.java" />
-        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/ArtistService.java" />
-        <option value="$PROJECT_DIR$/lab5/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/artist/ArtistRepository.java" />
-        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/js/modal.js" />
         <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Artist.java" />
         <option value="$PROJECT_DIR$/lab5/src/main/resources/public/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/lab5/src/main/resources/public/a.html" />
@@ -223,10 +220,35 @@
         <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/CinemaServiceImpl.java" />
         <option value="$PROJECT_DIR$/lab5/src/main/resources/public/impresario.html" />
         <option value="$PROJECT_DIR$/lab5/src/main/resources/public/artist.html" />
-        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/DataStorage.java" />
-        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Cinema.java" />
         <option value="$PROJECT_DIR$/lab5/src/main/resources/public/cinema.html" />
         <option value="$PROJECT_DIR$/lab5/src/main/resources/public/js/cinema.js" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Cinema.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/CinemaMovie.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/ArtistRepository.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/ImpresarioRepository.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/ConcertHallRepository.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/concerthall/ConcertHallService.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/concerthall/ConcertHallServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ConcertHallController.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ConcertHall.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/concert_hall.html" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/CulturePalace.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/CulturePalaceRepository.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/culturepalace/CulturePalaceService.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/culturepalace/CulturePalaceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/CulturePalaceController.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/js/concert_hall.js" />
+        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/culture_palace.html" />
+        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/js/culture_palace.js" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Organizer.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/OrganizerRepository.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/organizer/OrganizerService.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/organizer/OrganizerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/js/artist.js" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/OrganizerController.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/DataStorage.java" />
+        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/organizer.html" />
+        <option value="$PROJECT_DIR$/lab5/src/main/resources/public/js/organizer.js" />
       </list>
     </option>
   </component>
@@ -257,10 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,26 +346,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="databases5" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="artist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="databases5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="databases5" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="impresario" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="databases5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="databases5" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -368,7 +366,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="databases5" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="cinema" type="462c0819:PsiDirectoryNode" />
+              <item name="concerthall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="databases5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="databases5" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="organizer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="databases5" type="b2602c69:ProjectViewProjectNode" />
@@ -407,6 +415,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,8 +439,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Databases\lab5\src\main\resources\public" />
       <recent name="F:\Databases\lab5\src\main\resources\public\js" />
+      <recent name="F:\Databases\lab5\src\main\resources\public" />
       <recent name="F:\Databases\lab5\src\main\java\com\buzilov\databases5\services\cinema" />
       <recent name="F:\Databases\lab5\src\main\java\com\buzilov\databases5\services\impresario" />
       <recent name="F:\Databases\lab5\src\main\java\com\buzilov\databases5\model" />
@@ -547,11 +559,12 @@
       <workItem from="1524137346482" duration="2782000" />
       <workItem from="1524141948138" duration="750000" />
       <workItem from="1524297117620" duration="35206000" />
+      <workItem from="1524335579305" duration="4532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38738000" />
+    <option name="totallyTimeSpent" value="43270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,15 +588,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2623874" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25725028" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26100966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23469388" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -595,6 +607,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,191 +621,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Genre.java" />
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ConcertInHall.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/86f299e4-2a03-4b91-8bae-af8c6bae6d15/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/css/1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/2b39d10/86f299e4-2a03-4b91-8bae-af8c6bae6d15/philharmonic.artist">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" column="69" lean-forward="false" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="4" column="48511" lean-forward="false" selection-start-line="4" selection-start-column="48500" selection-end-line="4" selection-end-column="48511" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/Databases5Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/artist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/CinemaMovie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ContestResults.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ContestInPalace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Organizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ConcertHall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/CulturePalace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Theatre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/impresario/ImpresarioService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -803,10 +637,6 @@
           <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -816,8 +646,8 @@
         <state relative-caret-position="273">
           <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#329#330#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -826,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -834,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="259" column="1" lean-forward="false" selection-start-line="259" selection-start-column="1" selection-end-line="259" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,68 +674,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/ArtistServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/ArtistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/artist/ArtistService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/CinemaService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/artist/ArtistServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/artist/ArtistRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/impresario/ImpresarioRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/ArtistServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/ArtistService.java" />
     <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/impresario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -928,14 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/impresario.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -944,72 +704,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ArtistController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/CinemaServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/CinemaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/DataStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-474">
-          <caret line="39" column="50" lean-forward="true" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Cinema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ImpresarioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/CinemaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1022,6 +722,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/cinema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Cinema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/CinemaMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/cinema.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1030,10 +758,316 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/cinema.js">
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ConcertInHall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/ArtistRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/ImpresarioRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/ConcertHallRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="48" lean-forward="true" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/CinemaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/cinema/CinemaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ImpresarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/CinemaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/ConcertHall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/CulturePalace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/CulturePalaceRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/concerthall/ConcertHallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/culturepalace/CulturePalaceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ConcertHallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/CulturePalaceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/concert_hall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="57" column="62" lean-forward="false" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
+          <caret line="82" column="68" lean-forward="false" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/model/Organizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/repositories/OrganizerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="78" lean-forward="false" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/artist/ArtistService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/organizer/OrganizerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/artist/ArtistServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/culturepalace/CulturePalaceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="35" column="12" lean-forward="false" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/concerthall/ConcertHallServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/services/organizer/OrganizerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/artist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/ArtistController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/controllers/OrganizerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/java/com/buzilov/databases5/DataStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="43" column="10" lean-forward="false" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/concert_hall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="22" column="55" lean-forward="false" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/culture_palace.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/organizer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="31" column="103" lean-forward="false" selection-start-line="31" selection-start-column="103" selection-end-line="31" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/culture_palace.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab5/src/main/resources/public/js/organizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
           <folding />
         </state>
       </provider>

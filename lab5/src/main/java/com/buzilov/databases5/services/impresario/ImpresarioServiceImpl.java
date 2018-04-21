@@ -1,7 +1,7 @@
 package com.buzilov.databases5.services.impresario;
 
 import com.buzilov.databases5.model.Impresario;
-import com.buzilov.databases5.repositories.impresario.ImpresarioRepository;
+import com.buzilov.databases5.repositories.ImpresarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

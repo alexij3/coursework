@@ -1,7 +1,7 @@
 package com.buzilov.databases5.services.artist;
 
 import com.buzilov.databases5.model.Artist;
-import com.buzilov.databases5.repositories.artist.ArtistRepository;
+import com.buzilov.databases5.repositories.ArtistRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
