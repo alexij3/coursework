@@ -2,6 +2,8 @@ var app = angular.module("demo", []);
 
 app.controller("ArtistCtrl", function($scope, $http){
 
+    var idToUpdate;
+
     $scope.artists = [];
      $http.get('/api/artist/showAll').then(function (response){
         $scope.artists=response.data;
@@ -22,6 +24,25 @@ app.controller("ArtistCtrl", function($scope, $http){
         ).then(function(){
             window.parent.location.reload();
         });
+    };
+
+    this.startUpdateArtist = function startUpdateArtist(id){
+        idToUpdate = id;
+    };
+
+    this.updateArtist = function updateArtist(){
+        var name = document.getElementById('updateArtistName').value;
+        var request = {
+            method: 'POST',
+            url : '/api/artist/update?id=' + idToUpdate,
+            data: {
+                name : name
+            }
+        };
+
+        $http(request).then(function (response){
+            console.log(response);
+        })
     }
 });
 

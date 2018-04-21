@@ -1,9 +1,11 @@
 package com.buzilov.databases5.controllers;
 
 import com.buzilov.databases5.model.Artist;
-import com.buzilov.databases5.services.ArtistServiceImpl;
+import com.buzilov.databases5.services.artist.ArtistServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -31,6 +33,10 @@ public class ArtistController {
         return service.insert(artist);
     }
 
-
+    @RequestMapping("/update")
+    public Artist update(@RequestParam("id") Integer id, @RequestBody Artist artist){
+        artist.setId(id);
+        return service.update(artist);
+    }
 
 }

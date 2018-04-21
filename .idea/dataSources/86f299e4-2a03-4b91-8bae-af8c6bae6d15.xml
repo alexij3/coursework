@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="philharmonic@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="philharmonic">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="andrew"/>
+    <schema id="4" parent="1" name="army"/>
+    <schema id="5" parent="1" name="army2"/>
+    <schema id="6" parent="1" name="db_lab1"/>
+    <schema id="7" parent="1" name="hibernate_test"/>
+    <schema id="8" parent="1" name="information_schema"/>
+    <schema id="9" parent="1" name="kek"/>
+    <schema id="10" parent="1" name="lab_5_schema"/>
+    <schema id="11" parent="1" name="martyn"/>
+    <schema id="12" parent="1" name="military"/>
+    <schema id="13" parent="1" name="mydb"/>
+    <schema id="14" parent="1" name="mysql"/>
+    <schema id="15" parent="1" name="new_schema"/>
+    <schema id="16" parent="1" name="performance_schema"/>
+    <schema id="17" parent="1" name="philharmonic_justbase"/>
+    <schema id="18" parent="1" name="proselyte_tutorial"/>
+    <table id="19" parent="2" name="artist"/>
+    <column id="20" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="19" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="22" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

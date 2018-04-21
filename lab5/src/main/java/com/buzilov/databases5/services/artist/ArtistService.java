@@ -1,4 +1,4 @@
-package com.buzilov.databases5.services;
+package com.buzilov.databases5.services.artist;
 
 import com.buzilov.databases5.model.Artist;
 

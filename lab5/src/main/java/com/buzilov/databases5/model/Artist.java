@@ -1,14 +1,6 @@
 package com.buzilov.databases5.model;
 
-import com.buzilov.databases5.DataStorage;
-import com.buzilov.databases5.repositories.artist.ArtistRepository;
-import com.buzilov.databases5.services.ArtistService;
-import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.annotation.PostConstruct;
 import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
 
 @Entity
 public class Artist {
