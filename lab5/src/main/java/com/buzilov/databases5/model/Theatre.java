@@ -1,13 +1,26 @@
 package com.buzilov.databases5.model;
 
+import javax.persistence.*;
+
+@Entity
 public class Theatre {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+
+    @Column
     private String name;
+
+    @Column
     private String address;
+
+    @Column
     private int capacity;
 
-    public Theatre(Integer id, String name, String address, int capacity) {
-        this.id = id;
+    public Theatre() {
+    }
+
+    public Theatre(String name, String address, int capacity) {
         this.name = name;
         this.address = address;
         this.capacity = capacity;

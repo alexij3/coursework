@@ -31,6 +31,9 @@ public class DataStorage {
     @Autowired
     OrganizerRepository organizerRepository;
 
+    @Autowired
+    TheatreRepository theatreRepository;
+
     @PostConstruct
     public void init(){
         //artistRepository.saveAll(artists);
@@ -42,6 +45,7 @@ public class DataStorage {
         //concertHallRepository.saveAll(concertHalls);
         //culturePalaceRepository.saveAll(culturePalaces);
         //organizerRepository.saveAll(organizers);
+        theatreRepository.saveAll(theatres);
 
     }
 
@@ -204,21 +208,21 @@ public class DataStorage {
                     new ContestResults(contestsInPalaces.get(0), artists.get(17), 4, 'N'),
                     new ContestResults(contestsInPalaces.get(0), artists.get(18), 5, 'N')
             )
-    );
+    );*/
 
 
     public List<Theatre> theatres = new ArrayList<>(
             Arrays.asList(
-                    new Theatre(1, "Театр \"Кобила\"", "площа Театральна 1", 50),
-                    new Theatre(2, "Театр \"Класний\"", "площа Театральна 1", 50),
-                    new Theatre(3, "Театр \"Класичний\"", "площа Театральна 1", 60),
-                    new Theatre(4, "Театр \"Лісовик\"", "площа Театральна 2", 70),
-                    new Theatre(5, "Театр \"Дивовижа\"", "площа Театральна 3", 80),
-                    new Theatre(6, "Театр \"Ластівка\"", "площа Театральна 4", 90),
-                    new Theatre(7, "Театр \"Гром\"", "площа Театральна 5", 100),
-                    new Theatre(8, "Театр \"Молнія\"", "площа Театральна 6", 90),
-                    new Theatre(9, "Театр \"Вогонь\"", "площа Театральна 7", 80),
-                    new Theatre(10, "Театр \"На крихті льоду\"", "площа Театральна 8", 70)
+                    new Theatre( "Театр \"Кобила\"", "площа Театральна 1", 50),
+                    new Theatre( "Театр \"Класний\"", "площа Театральна 1", 50),
+                    new Theatre( "Театр \"Класичний\"", "площа Театральна 1", 60),
+                    new Theatre( "Театр \"Лісовик\"", "площа Театральна 2", 70),
+                    new Theatre( "Театр \"Дивовижа\"", "площа Театральна 3", 80),
+                    new Theatre( "Театр \"Ластівка\"", "площа Театральна 4", 90),
+                    new Theatre( "Театр \"Гром\"", "площа Театральна 5", 100),
+                    new Theatre( "Театр \"Молнія\"", "площа Театральна 6", 90),
+                    new Theatre( "Театр \"Вогонь\"", "площа Театральна 7", 80),
+                    new Theatre( "Театр \"На крихті льоду\"", "площа Театральна 8", 70)
             )
     );
 
@@ -233,7 +237,7 @@ public class DataStorage {
                     new TheatrePerformance(7, "Сьомий виступ", theatres.get(6), organizers.get(5), new Date(2018-03-03)),
                     new TheatrePerformance(8, "Восьмий виступ", theatres.get(7), organizers.get(6), new Date(2018-03-04))
             )
-    );*/
+    );
 
     public List<Artist> artistsToGet = new ArrayList<>();
 }
