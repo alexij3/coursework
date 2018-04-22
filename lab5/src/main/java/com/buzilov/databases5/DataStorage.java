@@ -6,9 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
+import java.sql.Date;
 import java.util.List;
 
 @Configuration
@@ -34,6 +35,9 @@ public class DataStorage {
     @Autowired
     TheatreRepository theatreRepository;
 
+    @Autowired
+    CinemaMoviesRepository cinemaMoviesRepository;
+
     @PostConstruct
     public void init(){
         //artistRepository.saveAll(artists);
@@ -45,8 +49,14 @@ public class DataStorage {
         //concertHallRepository.saveAll(concertHalls);
         //culturePalaceRepository.saveAll(culturePalaces);
         //organizerRepository.saveAll(organizers);
-        theatreRepository.saveAll(theatres);
+        //theatreRepository.saveAll(theatres);
+        /*List<Cinema> cinemasList = (List<Cinema>)cinemaRepository.findAll();
+        for (int i = 0; i < cinemaMovies.size(); i++) {
+            cinemaMovies.get(i).setCinema(cinemasList.get(i));
+            cinemaMovies.get(i).setCinemaId(cinemasList.get(i).getId());
+        }
 
+        cinemaMoviesRepository.saveAll(cinemaMovies);*/
     }
 
     public List<Artist> artists = new ArrayList<>(
@@ -100,18 +110,33 @@ public class DataStorage {
             )
     );
 
-    /*public List<CinemaMovie> cinemaMovies = new ArrayList<>(
+    public List<CinemaMovie> cinemaMovies = new ArrayList<>(
             Arrays.asList(
-                    new CinemaMovie(1, "Перший фільм", "Комедія", cinemas.get(0), new Date(2018-14-01)),
-                    new CinemaMovie(2, "Другий фільм", "Комедія", cinemas.get(1), new Date(2017-12-27)),
-                    new CinemaMovie(3, "Третій фільм", "Боєвик", cinemas.get(2), new Date(2018-03-04)),
-                    new CinemaMovie(4, "Четвертий фільм", "Фантастика", cinemas.get(3), new Date(2018-02-18)),
-                    new CinemaMovie(5, "П'ятий фільм", "Детектив", cinemas.get(4), new Date(2018-02-21)),
-                    new CinemaMovie(6, "Шостий фільм", "Тріллер", cinemas.get(5), new Date(2018-02-25)),
-                    new CinemaMovie(7, "Сьомий фільм", "Детектив", cinemas.get(6), new Date(2018-02-23)),
-                    new CinemaMovie(8, "Восьмий фільм", "Фантастика", cinemas.get(7), new Date(2018-02-27)),
-                    new CinemaMovie(9, "Дев'ятий фільм", "Комедія", cinemas.get(8), new Date(2018-02-10)),
-                    new CinemaMovie(10, "Десятий фільм", "Драма", cinemas.get(9), new Date(2018-02-15))
+                    new CinemaMovie( "Перший фільм", Genre.Комедія,  LocalDate.of(2018, 1, 1)),
+                    new CinemaMovie( "Другий фільм", Genre.Комедія,  LocalDate.of(2017, 12, 27)),
+                    new CinemaMovie("Третій фільм", Genre.Боєвик,  LocalDate.of(2018, 3,4)),
+                    new CinemaMovie("Четвертий фільм", Genre.Фантастика,  LocalDate.of(2018, 2,18)),
+                    new CinemaMovie( "П'ятий фільм", Genre.Детектив,  LocalDate.of(2018, 2,21)),
+                    new CinemaMovie( "Шостий фільм", Genre.Тріллер,  LocalDate.of(2018, 2,25)),
+                    new CinemaMovie( "Сьомий фільм", Genre.Детектив,  LocalDate.of(2018, 2,23)),
+                    new CinemaMovie( "Восьмий фільм", Genre.Фантастика,  LocalDate.of(2018, 2,27)),
+                    new CinemaMovie( "Дев'ятий фільм", Genre.Комедія, LocalDate.of(2018, 2,10)),
+                    new CinemaMovie( "Десятий фільм", Genre.Драма, LocalDate.of(2018, 2,15))
+            )
+    );
+
+   /* public List<CinemaMovie> cinemaMovies = new ArrayList<>(
+            Arrays.asList(
+                    new CinemaMovie( "Перший фільм", Genre.Комедія, cinemas.get(0), LocalDate.of(2018, 1,-1)),
+                    new CinemaMovie( "Другий фільм", Genre.Комедія, cinemas.get(1), LocalDate.of(2017-12-27)),
+                    new CinemaMovie("Третій фільм", Genre.Боєвик, cinemas.get(2), LocalDate.of(2018, 3,4)),
+                    new CinemaMovie("Четвертий фільм", Genre.Фантастика, cinemas.get(3), LocalDate.of(2018, 2,18)),
+                    new CinemaMovie( "П'ятий фільм", Genre.Детектив, cinemas.get(4), LocalDate.of(2018, 2,21)),
+                    new CinemaMovie( "Шостий фільм", Genre.Тріллер, cinemas.get(5), LocalDate.of(2018, 2,25)),
+                    new CinemaMovie( "Сьомий фільм", Genre.Детектив, cinemas.get(6), LocalDate.of(2018, 2,23)),
+                    new CinemaMovie( "Восьмий фільм", Genre.Фантастика, cinemas.get(7), LocalDate.of(2018, 2,27)),
+                    new CinemaMovie( "Дев'ятий фільм", Genre.Комедія, cinemas.get(8), LocalDate.of(2018, 2,10)),
+                    new CinemaMovie( "Десятий фільм", Genre.Драма, cinemas.get(9), LocalDate.of(2018, 2,15))
             )
     );*/
 
@@ -150,27 +175,27 @@ public class DataStorage {
             )
     );
 
-
+/*
     public List<ConcertInHall> concertsInHall = new ArrayList<>(
             Arrays.asList(
-                    new ConcertInHall(1, concertHalls.get(0), "Концерт №1", organizers.get(0), new Date(2018-02-01)),
-                    new ConcertInHall(2, concertHalls.get(0), "Концерт №2", organizers.get(1), new Date(2018-02-03)),
-                    new ConcertInHall(3, concertHalls.get(0), "Концерт №3", organizers.get(2), new Date(2018-02-04)),
-                    new ConcertInHall(4, concertHalls.get(1), "Концерт №4", organizers.get(3), new Date(2018-02-06)),
-                    new ConcertInHall(5, concertHalls.get(1), "Концерт №5", organizers.get(4), new Date(2018-02-10)),
-                    new ConcertInHall(6, concertHalls.get(2), "Концерт №6", organizers.get(5), new Date(2018-02-12)),
-                    new ConcertInHall(7, concertHalls.get(2), "Концерт №7", organizers.get(6), new Date(2018-02-14)),
-                    new ConcertInHall(8, concertHalls.get(3), "Концерт №8", organizers.get(7), new Date(2018-02-15)),
-                    new ConcertInHall(9, concertHalls.get(3), "Концерт №9", organizers.get(8), new Date(2018-02-18)),
-                    new ConcertInHall(10, concertHalls.get(4), "Концерт №10", organizers.get(9), new Date(2018-02-21)),
-                    new ConcertInHall(11, concertHalls.get(4), "Концерт №11", organizers.get(10), new Date(2018-02-23)),
-                    new ConcertInHall(12, concertHalls.get(5), "Концерт №12", organizers.get(11), new Date(2018-02-23)),
-                    new ConcertInHall(13, concertHalls.get(6), "Концерт №13", organizers.get(12), new Date(2018-02-24)),
-                    new ConcertInHall(14, concertHalls.get(7), "Концерт №14", organizers.get(13), new Date(2018-02-25)),
-                    new ConcertInHall(15, concertHalls.get(8), "Концерт №15", organizers.get(14), new Date(2018-02-27)),
-                    new ConcertInHall(16, concertHalls.get(9), "Концерт №16", organizers.get(0), new Date(2018-02-27))
+                    new ConcertInHall(1, concertHalls.get(0), "Концерт №1", organizers.get(0), LocalDate.of(2018, 2,1)),
+                    new ConcertInHall(2, concertHalls.get(0), "Концерт №2", organizers.get(1), LocalDate.of(2018, 2,3)),
+                    new ConcertInHall(3, concertHalls.get(0), "Концерт №3", organizers.get(2), LocalDate.of(2018, 2,4)),
+                    new ConcertInHall(4, concertHalls.get(1), "Концерт №4", organizers.get(3), LocalDate.of(2018, 2,6)),
+                    new ConcertInHall(5, concertHalls.get(1), "Концерт №5", organizers.get(4), LocalDate.of(2018, 2,10)),
+                    new ConcertInHall(6, concertHalls.get(2), "Концерт №6", organizers.get(5), LocalDate.of(2018, 2,12)),
+                    new ConcertInHall(7, concertHalls.get(2), "Концерт №7", organizers.get(6), LocalDate.of(2018, 2,14)),
+                    new ConcertInHall(8, concertHalls.get(3), "Концерт №8", organizers.get(7), LocalDate.of(2018, 2,15)),
+                    new ConcertInHall(9, concertHalls.get(3), "Концерт №9", organizers.get(8), LocalDate.of(2018, 2,18)),
+                    new ConcertInHall(10, concertHalls.get(4), "Концерт №10", organizers.get(9), LocalDate.of(2018, 2,21)),
+                    new ConcertInHall(11, concertHalls.get(4), "Концерт №11", organizers.get(10), LocalDate.of(2018, 2,23)),
+                    new ConcertInHall(12, concertHalls.get(5), "Концерт №12", organizers.get(11), LocalDate.of(2018, 2,23)),
+                    new ConcertInHall(13, concertHalls.get(6), "Концерт №13", organizers.get(12), LocalDate.of(2018, 2,24)),
+                    new ConcertInHall(14, concertHalls.get(7), "Концерт №14", organizers.get(13), LocalDate.of(2018, 2,25)),
+                    new ConcertInHall(15, concertHalls.get(8), "Концерт №15", organizers.get(14), LocalDate.of(2018, 2,27)),
+                    new ConcertInHall(16, concertHalls.get(9), "Концерт №16", organizers.get(0), LocalDate.of(2018, 2,27))
             )
-    );
+    );*/
 
     public List<CulturePalace> culturePalaces = new ArrayList<>(
             Arrays.asList(
@@ -187,20 +212,20 @@ public class DataStorage {
             )
     );
 
-    /*
-    public List<ContestInPalace> contestsInPalaces = new ArrayList<>(
-            Arrays.asList(
-                    new ContestInPalace(1, culturePalaces.get(0), "Конкурс-виставка \"Натюрморт\"", organizers.get(0), new Date(2018-01-20)),
-                    new ContestInPalace(2, culturePalaces.get(0), "Конкурс-виставка \"Різьблення\"", organizers.get(1), new Date(2018-01-25)),
-                    new ContestInPalace(3, culturePalaces.get(0), "Конкурс \"Портрет\"", organizers.get(2), new Date(2018-02-01)),
-                    new ContestInPalace(4, culturePalaces.get(2), "Конкурс \"Пейзаж\"", organizers.get(3), new Date(2018-02-05)),
-                    new ContestInPalace(5, culturePalaces.get(4), "Конкурс \"Диво-історія\"", organizers.get(4), new Date(2018-02-10)),
-                    new ContestInPalace(6, culturePalaces.get(5), "Конкурс \"Інший\"", organizers.get(5), new Date(2018-01-14)),
-                    new ContestInPalace(7, culturePalaces.get(6), "Конкурс \"Багатий\"", organizers.get(6), new Date(2018-03-02))
-            )
-    );
 
-    public List<ContestResults> contestResults = new ArrayList<>(
+    /*public List<ContestInPalace> contestsInPalaces = new ArrayList<>(
+            Arrays.asList(
+                    new ContestInPalace(1, culturePalaces.get(0), "Конкурс-виставка \"Натюрморт\"", organizers.get(0), LocalDate.of(2018, 1,20)),
+                    new ContestInPalace(2, culturePalaces.get(0), "Конкурс-виставка \"Різьблення\"", organizers.get(1), LocalDate.of(2018, 1,25)),
+                    new ContestInPalace(3, culturePalaces.get(0), "Конкурс \"Портрет\"", organizers.get(2), LocalDate.of(2018, 2,1)),
+                    new ContestInPalace(4, culturePalaces.get(2), "Конкурс \"Пейзаж\"", organizers.get(3), LocalDate.of(2018, 2,5)),
+                    new ContestInPalace(5, culturePalaces.get(4), "Конкурс \"Диво-історія\"", organizers.get(4), LocalDate.of(2018, 2,10)),
+                    new ContestInPalace(6, culturePalaces.get(5), "Конкурс \"Інший\"", organizers.get(5), LocalDate.of(2018, 1,14)),
+                    new ContestInPalace(7, culturePalaces.get(6), "Конкурс \"Багатий\"", organizers.get(6), LocalDate.of(2018, 3,2))
+            )
+    );*/
+
+    /*public List<ContestResults> contestResults = new ArrayList<>(
             Arrays.asList(
                     new ContestResults(contestsInPalaces.get(0), artists.get(11), 1, 'Y'),
                     new ContestResults(contestsInPalaces.get(0), artists.get(15), 2, 'Y'),
@@ -226,18 +251,18 @@ public class DataStorage {
             )
     );
 
-    public List<TheatrePerformance> theatrePerformances = new ArrayList<>(
+    /*public List<TheatrePerformance> theatrePerformances = new ArrayList<>(
             Arrays.asList(
-                    new TheatrePerformance(1, "Перший виступ", theatres.get(0), organizers.get(0), new Date(2018-02-14)),
-                    new TheatrePerformance(2, "Другий виступ", theatres.get(1), organizers.get(0), new Date(2018-01-27)),
-                    new TheatrePerformance(3, "Третій виступ", theatres.get(2), organizers.get(1), new Date(2018-02-04)),
-                    new TheatrePerformance(4, "Четвертий виступ", theatres.get(3), organizers.get(2), new Date(2018-02-07)),
-                    new TheatrePerformance(5, "П'ятий виступ", theatres.get(4), organizers.get(3), new Date(2018-01-23)),
-                    new TheatrePerformance(6, "Шостий виступ", theatres.get(5), organizers.get(4), new Date(2018-03-02)),
-                    new TheatrePerformance(7, "Сьомий виступ", theatres.get(6), organizers.get(5), new Date(2018-03-03)),
-                    new TheatrePerformance(8, "Восьмий виступ", theatres.get(7), organizers.get(6), new Date(2018-03-04))
+                    new TheatrePerformance(1, "Перший виступ", theatres.get(0), organizers.get(0), LocalDate.of(2018, 2,14)),
+                    new TheatrePerformance(2, "Другий виступ", theatres.get(1), organizers.get(0), LocalDate.of(2018, 1,27)),
+                    new TheatrePerformance(3, "Третій виступ", theatres.get(2), organizers.get(1), LocalDate.of(2018, 2,4)),
+                    new TheatrePerformance(4, "Четвертий виступ", theatres.get(3), organizers.get(2), LocalDate.of(2018, 2,7)),
+                    new TheatrePerformance(5, "П'ятий виступ", theatres.get(4), organizers.get(3), LocalDate.of(2018, 1,23)),
+                    new TheatrePerformance(6, "Шостий виступ", theatres.get(5), organizers.get(4), LocalDate.of(2018, 3,2)),
+                    new TheatrePerformance(7, "Сьомий виступ", theatres.get(6), organizers.get(5), LocalDate.of(2018, 3,3)),
+                    new TheatrePerformance(8, "Восьмий виступ", theatres.get(7), organizers.get(6), LocalDate.of(2018, 3,4))
             )
-    );
+    );*/
 
     public List<Artist> artistsToGet = new ArrayList<>();
 }

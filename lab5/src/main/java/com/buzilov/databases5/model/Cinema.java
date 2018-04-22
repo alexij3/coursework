@@ -1,13 +1,16 @@
 package com.buzilov.databases5.model;
 
+import org.springframework.data.jpa.domain.support.AuditingEntityListener;
+
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@EntityListeners(AuditingEntityListener.class)
 public class Cinema {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private int id;
 
     @Column
     private String name;
@@ -18,8 +21,8 @@ public class Cinema {
     @Column
     private int screenSize;
 
-    /*@OneToMany(mappedBy = "cinema")
-    private List<CinemaMovie> cinemaMovieList;*/
+    @OneToMany(mappedBy = "cinema")
+    private List<CinemaMovie> cinemaMovieList;
 
     public Cinema() {
     }
@@ -60,28 +63,6 @@ public class Cinema {
 
     public void setScreenSize(int screenSize) {
         this.screenSize = screenSize;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Cinema cinema = (Cinema) o;
-
-        if (screenSize != cinema.screenSize) return false;
-        if (id != null ? !id.equals(cinema.id) : cinema.id != null) return false;
-        if (name != null ? !name.equals(cinema.name) : cinema.name != null) return false;
-        return address != null ? address.equals(cinema.address) : cinema.address == null;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = id != null ? id.hashCode() : 0;
-        result = 31 * result + (name != null ? name.hashCode() : 0);
-        result = 31 * result + (address != null ? address.hashCode() : 0);
-        result = 31 * result + screenSize;
-        return result;
     }
 
     @Override

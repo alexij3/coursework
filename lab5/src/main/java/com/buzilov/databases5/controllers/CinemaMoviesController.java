@@ -1,7 +1,7 @@
 package com.buzilov.databases5.controllers;
 
-import com.buzilov.databases5.model.Cinema;
-import com.buzilov.databases5.services.cinema.CinemaServiceImpl;
+import com.buzilov.databases5.model.CinemaMovie;
+import com.buzilov.databases5.services.cinemamovie.CinemaMoviesServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/cinema")
-public class CinemaController {
+@RequestMapping("/api/cinemamovie")
+public class CinemaMoviesController {
     @Autowired
-    CinemaServiceImpl service;
+    CinemaMoviesServiceImpl service;
 
     @RequestMapping("/showAll")
-    public List<Cinema> getAll() {
+    public List<CinemaMovie> getAll() {
         return service.getAll();
     }
 
@@ -28,18 +28,14 @@ public class CinemaController {
     }
 
     @RequestMapping("/create")
-    public Cinema create(@RequestBody Cinema cinema){
-        return service.insert(cinema);
+    public CinemaMovie create(@RequestBody CinemaMovie CinemaMovie){
+        return service.insert(CinemaMovie);
     }
 
     @RequestMapping("/update")
-    public Cinema update(@RequestParam("id") Integer id, @RequestBody Cinema Cinema){
-        Cinema.setId(id);
-        return service.update(Cinema);
+    public CinemaMovie update(@RequestParam("id") Integer id, @RequestBody CinemaMovie CinemaMovie){
+        CinemaMovie.setId(id);
+        return service.update(CinemaMovie);
     }
 
-    @RequestMapping("/get")
-    public Cinema getById(int id){
-        return service.getById(id);
-    }
 }
