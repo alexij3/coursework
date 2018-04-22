@@ -57,6 +57,7 @@ public class DataStorage {
         }
 
         cinemaMoviesRepository.saveAll(cinemaMovies);*/
+
     }
 
     public List<Artist> artists = new ArrayList<>(

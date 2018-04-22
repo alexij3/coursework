@@ -21,7 +21,8 @@ public class Cinema {
     @Column
     private int screenSize;
 
-    @OneToMany(mappedBy = "cinema")
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "cinema_id", insertable = false, updatable = false, nullable = false)
     private List<CinemaMovie> cinemaMovieList;
 
     public Cinema() {

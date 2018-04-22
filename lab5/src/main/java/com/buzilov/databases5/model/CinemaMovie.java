@@ -1,6 +1,7 @@
 package com.buzilov.databases5.model;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import java.sql.Date;
 import java.time.LocalDate;
 
@@ -17,11 +18,11 @@ public class CinemaMovie {
     @Column(name = "genre")
     private Genre genre;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "cinema_id", insertable = false, updatable = false)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.MERGE)
+    @JoinColumn(name = "cinema_id", insertable = false, updatable = false, nullable = false)
     private Cinema cinema;
 
-    @Column(name = "cinema_id")
+    @Column(name = "cinema_id", nullable = false)
     private int cinemaId;
 
     @Column
@@ -103,4 +104,5 @@ public class CinemaMovie {
     public void setDate(LocalDate date) {
         this.date = date;
     }
+
 }
