@@ -1,6 +1,8 @@
 package com.buzilov.databases5.controllers;
 
 import com.buzilov.databases5.model.Artist;
+import com.buzilov.databases5.model.Genre;
+import com.buzilov.databases5.model.Impresario;
 import com.buzilov.databases5.services.artist.ArtistServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -9,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Set;
 
 @RestController
 @RequestMapping("/api/artist")
@@ -28,8 +31,9 @@ public class ArtistController {
     }
 
     @RequestMapping("/create")
-    public Artist create(String name){
-        Artist artist = new Artist(name);
+    public Artist create(@RequestParam("name") String name, @RequestParam("genreSet") Set<Genre> genres,
+                         @RequestParam("impresarioSet")Set<Impresario> impresarios){
+        Artist artist = new Artist(name, genres, impresarios);
         return service.insert(artist);
     }
 

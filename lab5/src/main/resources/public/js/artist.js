@@ -1,14 +1,18 @@
 var app = angular.module("demo", []);
 
 app.controller("ArtistCtrl", function($scope, $http){
-
     var idToUpdate;
+    var artistGenres = [];
 
     $scope.artists = [];
      $http.get('/api/artist/showAll').then(function (response){
         $scope.artists=response.data;
         console.log(response);
     });
+
+    this.addGenre = function addGenre(){
+        artistGenres[artistGenres.length] = document.getElementById('selectGenres').value;
+    };
 
     this.deleteArtist = function deleteArtist(id){
         $http.get('/api/artist/delete?id=' + id).then(function(){
@@ -19,11 +23,24 @@ app.controller("ArtistCtrl", function($scope, $http){
 
     this.createArtist = function createArtist(){
         var name = document.getElementById('artistName').value;
-        $http.get('/api/artist/create?name=' + name).success(
-            console.log('created artist with name ' + name)
-        ).then(function(){
-            window.parent.location.reload();
+        window.alert(artistGenres);
+
+        var createRequest = {
+            method: 'POST',
+            url: '/api/artist/create',
+            data: {
+                name : name,
+                genreSet : artistGenres,
+                impresarioSet : null
+            }
+        };
+
+        $http(createRequest).then(function(){
+            console.log('created artist with name ' + name);
+
         });
+
+        window.location.reload();
     };
 
     this.startUpdateArtist = function startUpdateArtist(id){

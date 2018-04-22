@@ -47,7 +47,21 @@
                 </div>
                 <div class="modal-body">
                     <label>Ім'я:</label>
-                    <input type="text" id="artistName" name="artistName" />
+                    <input type="text" id="artistName" name="artistName" /> <br>
+                    <label>Жанри:</label>
+                    <select id="selectGenres" name="selectGenres" title="kek">
+                        <option>Комедія</option>
+                        <option>Драма</option>
+                        <option>Мелодрама</option>
+                        <option>Мюзикл</option>
+                        <option>Пародія</option>
+                        <option>Фантастика</option>
+                        <option>Боєвик</option>
+                        <option>Фентезі</option>
+                        <option>Тріллер</option>
+                        <option>Детектив</option>
+                    </select>
+                    <button id="addGenreButton" ng-click="artistCtrl.addGenre()">Додати</button> <br>
                     <button id="createArtistButton" ng-click="artistCtrl.createArtist()">Створити</button>
                 </div>
                 <div class="modal-footer">

@@ -1,6 +1,10 @@
 package com.buzilov.databases5.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 public class Impresario {
@@ -11,11 +15,48 @@ public class Impresario {
     @Column
     private String name;
 
+    @ElementCollection(targetClass = Genre.class)
+    @CollectionTable(name = "impresario_genre", joinColumns = @JoinColumn(name = "impresario_id"))
+    @Enumerated(EnumType.STRING)
+    @Column(name = "genre")
+    private Set<Genre> genreSet;
+
+    @JsonBackReference
+    @ManyToMany(mappedBy = "impresarioSet")
+    private Set<Artist> artistSet = new HashSet<>();
+
     public Impresario() {
+    }
+
+    public Impresario(String name, Set<Genre> genreSet, Set<Artist> artistSet) {
+        this.name = name;
+        this.genreSet = genreSet;
+        this.artistSet = artistSet;
+    }
+
+    public Impresario(String name, Set<Genre> genreSet) {
+        this.name = name;
+        this.genreSet = genreSet;
     }
 
     public Impresario(String name) {
         this.name = name;
+    }
+
+    public Set<Artist> getArtistSet() {
+        return artistSet;
+    }
+
+    public void setArtistSet(Set<Artist> artistSet) {
+        this.artistSet = artistSet;
+    }
+
+    public Set<Genre> getGenreSet() {
+        return genreSet;
+    }
+
+    public void setGenreSet(Set<Genre> genreSet) {
+        this.genreSet = genreSet;
     }
 
     public Integer getId() {

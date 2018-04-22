@@ -1,7 +1,6 @@
 var app = angular.module("demo", []);
 
 app.controller("CulturePalaceCtrl", function($scope, $http){
-
     var idToUpdate;
 
     $scope.culturePalaces = [];

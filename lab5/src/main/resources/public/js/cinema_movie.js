@@ -106,7 +106,9 @@ app.controller("CinemaMovieCtrl", function($scope, $http){
 
         $http(request).then(function (response){
             console.log(response);
-        })
+        });
+
+        window.location.reload();
     }
 });
 

@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.sql.Date;
 import java.util.List;
+import java.util.Set;
 
 @Configuration
 public class DataStorage {
@@ -57,6 +58,10 @@ public class DataStorage {
         }
 
         cinemaMoviesRepository.saveAll(cinemaMovies);*/
+
+        //artists.get(0).setGenreSet(Set.of(Genre.Детектив, Genre.Фантастика));
+        //artists.get(0).setImpresarioSet(Set.of(impresarios.get(0), impresarios.get(1)));
+        //artistRepository.saveAll(artists);
 
     }
 

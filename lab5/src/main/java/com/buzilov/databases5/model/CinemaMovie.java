@@ -34,7 +34,9 @@ public class CinemaMovie {
     public CinemaMovie(String name, Genre genre, LocalDate date) {
         this.name = name;
         this.genre = genre;
-        this.date = date;
+        if (date == null) {
+            this.date = LocalDate.of(2018, 1, 1);
+        }else this.date = date;
     }
 
     public CinemaMovie(String name, Genre genre, Cinema cinema, int cinemaId, LocalDate date) {

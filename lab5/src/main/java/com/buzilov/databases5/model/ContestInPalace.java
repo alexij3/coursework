@@ -17,8 +17,6 @@ public class ContestInPalace {
         this.date = date;
     }
 
-
-
     public int getId() {
         return id;
     }
