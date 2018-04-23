@@ -1,5 +1,6 @@
 package com.buzilov.databases5.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
@@ -16,13 +17,14 @@ public class Artist {
     @Column
     private String name;
 
+
     @ElementCollection(targetClass = Genre.class)
     @CollectionTable(name = "artist_genre", joinColumns = @JoinColumn(name = "artist_id"))
     @Enumerated(EnumType.STRING)
     @Column(name = "genre")
+
     private Set<Genre> genreSet;
 
-    @JsonManagedReference
     @ManyToMany(cascade = {
             CascadeType.PERSIST,
             CascadeType.MERGE

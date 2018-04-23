@@ -1,5 +1,8 @@
 package com.buzilov.databases5.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class ArtistAndImpresario {
     private Artist artist;
     private Impresario impresario;

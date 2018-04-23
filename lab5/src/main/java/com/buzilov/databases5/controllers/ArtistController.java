@@ -26,14 +26,12 @@ public class ArtistController {
 
     @RequestMapping("/delete")
     public void delete(int id) {
-        System.out.println("kek");
         service.delete(id);
     }
 
     @RequestMapping("/create")
-    public Artist create(@RequestParam("name") String name, @RequestParam("genreSet") Set<Genre> genres,
-                         @RequestParam("impresarioSet")Set<Impresario> impresarios){
-        Artist artist = new Artist(name, genres, impresarios);
+    public Artist create(@RequestBody Artist artist){
+        System.out.println("Created artist");
         return service.insert(artist);
     }
 

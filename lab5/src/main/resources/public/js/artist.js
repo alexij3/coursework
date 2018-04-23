@@ -2,7 +2,7 @@ var app = angular.module("demo", []);
 
 app.controller("ArtistCtrl", function($scope, $http){
     var idToUpdate;
-    var artistGenres = [];
+    var genres = [];
 
     $scope.artists = [];
      $http.get('/api/artist/showAll').then(function (response){
@@ -10,28 +10,25 @@ app.controller("ArtistCtrl", function($scope, $http){
         console.log(response);
     });
 
-    this.addGenre = function addGenre(){
-        artistGenres[artistGenres.length] = document.getElementById('selectGenres').value;
-    };
-
     this.deleteArtist = function deleteArtist(id){
         $http.get('/api/artist/delete?id=' + id).then(function(){
-            window.location.reload();
             console.log("deleted artist with id " + id);
+            window.location.reload();
         });
     };
 
     this.createArtist = function createArtist(){
+        console.log("In createartist()");
         var name = document.getElementById('artistName').value;
-        window.alert(artistGenres);
+        genres = $scope.selectedGenres;
 
         var createRequest = {
-            method: 'POST',
+            method: 'PUT',
             url: '/api/artist/create',
             data: {
-                name : name,
-                genreSet : artistGenres,
-                impresarioSet : null
+                name: name,
+                genreSet : genres,
+                impresarioSet : []
             }
         };
 
@@ -40,6 +37,7 @@ app.controller("ArtistCtrl", function($scope, $http){
 
         });
 
+        genres = [];
         window.location.reload();
     };
 
@@ -59,7 +57,9 @@ app.controller("ArtistCtrl", function($scope, $http){
 
         $http(request).then(function (response){
             console.log(response);
-        })
+        });
+
+        window.location.reload();
     }
 });
 

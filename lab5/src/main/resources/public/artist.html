@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/popup.css">
 
 
 
@@ -49,7 +50,7 @@
                     <label>Ім'я:</label>
                     <input type="text" id="artistName" name="artistName" /> <br>
                     <label>Жанри:</label>
-                    <select id="selectGenres" name="selectGenres" title="kek">
+                    <select multiple ng-model="selectedGenres" id="selectGenres" name="selectGenres" title="Жанри">
                         <option>Комедія</option>
                         <option>Драма</option>
                         <option>Мелодрама</option>
@@ -61,7 +62,7 @@
                         <option>Тріллер</option>
                         <option>Детектив</option>
                     </select>
-                    <button id="addGenreButton" ng-click="artistCtrl.addGenre()">Додати</button> <br>
+                    <br>
                     <button id="createArtistButton" ng-click="artistCtrl.createArtist()">Створити</button>
                 </div>
                 <div class="modal-footer">
